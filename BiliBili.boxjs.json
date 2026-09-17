@@ -24,8 +24,8 @@
 					"name": "[首页] 标签页",
 					"type": "checkboxes",
 					"val": [
-						"直播tab",
-						"推荐tab",
+						"live",
+						"recommend",
 						"hottopic",
 						"bangumi",
 						"anime",
@@ -33,19 +33,14 @@
 						"koreavtw"
 					],
 					"items": [
-						{ "key": "直播tab", "label": "直播" },
-						{ "key": "推荐tab", "label": "推荐" },
+						{ "key": "live", "label": "直播" },
+						{ "key": "recommend", "label": "推荐" },
 						{ "key": "hottopic", "label": "热门" },
 						{ "key": "bangumi", "label": "番剧" },
 						{ "key": "anime", "label": "动画（港澳台）" },
 						{ "key": "film", "label": "影视" },
 						{ "key": "koreavtw", "label": "韩综（港澳台）" },
-						{ "key": "game", "label": "游戏" },
-						{ "key": "mctab", "label": "minecraft" },
-						{ "key": "dhtr", "label": "动画同人" },
-						{ "key": "gaoxiao", "label": "搞笑" },
-						{ "key": "school", "label": "校园" },
-						{ "key": "kj", "label": "数码" }
+						{ "key": "school", "label": "校园" }
 					],
 					"desc": "请选择启用的首页标签页，建议不超过7个。"
 				},
@@ -53,14 +48,14 @@
 					"id": "@Biliverse.Enhanced.Settings.Home.Tab_default",
 					"name": "[首页] 默认标签页",
 					"type": "selects",
-					"val": "推荐tab",
+					"val": "recommend",
 					"items": [
 						{
-							"key": "直播tab",
+							"key": "live",
 							"label": "直播"
 						},
 						{
-							"key": "推荐tab",
+							"key": "recommend",
 							"label": "推荐"
 						},
 						{
@@ -84,28 +79,8 @@
 							"label": "韩综（港澳台）"
 						},
 						{
-							"key": "game",
-							"label": "游戏"
-						},
-						{
-							"key": "mctab",
-							"label": "minecraft"
-						},
-						{
-							"key": "dhtr",
-							"label": "动画同人"
-						},
-						{
-							"key": "gaoxiao",
-							"label": "搞笑"
-						},
-						{
 							"key": "school",
 							"label": "校园"
-						},
-						{
-							"key": "kj",
-							"label": "数码"
 						}
 					],
 					"desc": "请选择启动APP时默认展示的标签页，需先将该标签页加入分区页的快捷访问。"
@@ -123,19 +98,19 @@
 					"name": "[首页] 顶栏（右侧）按钮",
 					"type": "checkboxes",
 					"val": [
-						"消息Top"
+						"messages"
 					],
 					"items": [
 						{
-							"key": "游戏中心Top",
+							"key": "game_center",
 							"label": "游戏中心"
 						},
 						{
-							"key": "会员购Top",
+							"key": "mall",
 							"label": "会员购"
 						},
 						{
-							"key": "消息Top",
+							"key": "messages",
 							"label": "消息"
 						}
 					],
@@ -169,17 +144,13 @@
 						"home",
 						"dynamic",
 						"ogv",
-						"会员购Bottom",
-						"我的Bottom"
+						"mall",
+						"mine"
 					],
 					"items": [
 						{
 							"key": "home",
 							"label": "首页"
-						},
-						{
-							"key": "频道Bottom",
-							"label": "频道"
 						},
 						{
 							"key": "dynamic",
@@ -194,15 +165,15 @@
 							"label": "节目（港澳台）"
 						},
 						{
-							"key": "会员购Bottom",
+							"key": "mall",
 							"label": "会员购"
 						},
 						{
-							"key": "消息Bottom",
+							"key": "messages",
 							"label": "消息"
 						},
 						{
-							"key": "我的Bottom",
+							"key": "mine",
 							"label": "我的"
 						}
 					],
