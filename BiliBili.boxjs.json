@@ -20,13 +20,6 @@
 					"desc": "启用后可自定义首页顶栏、标签页和底部导航栏内容。标签页由分区页的快捷访问决定。"
 				},
 				{
-					"id": "@Biliverse.Enhanced.Settings.Home.Tab",
-					"name": "[首页] 标签页",
-					"type": "url",
-					"val": "bilibili://main/regionv2",
-					"desc": "点击打开 Bilibili 分区页，配置首页标签页。"
-				},
-				{
 					"id": "@Biliverse.Enhanced.Settings.Home.Tab_default",
 					"name": "[首页] 默认标签页",
 					"type": "selects",
