@@ -23,63 +23,79 @@
 					"id": "@Biliverse.Enhanced.Settings.Home.Tab",
 					"name": "[首页] 标签页",
 					"type": "checkboxes",
-					"val": [
-						"live",
-						"recommend",
-						"hottopic",
-						"bangumi",
-						"anime",
-						"film",
-						"koreavtw"
-					],
+					"val": ["2036", "2037", "780", "545", "151"],
 					"items": [
-						{ "key": "live", "label": "直播" },
-						{ "key": "recommend", "label": "推荐" },
-						{ "key": "hottopic", "label": "热门" },
-						{ "key": "bangumi", "label": "番剧" },
-						{ "key": "anime", "label": "动画（港澳台）" },
-						{ "key": "film", "label": "影视" },
-						{ "key": "koreavtw", "label": "韩综（港澳台）" },
-						{ "key": "school", "label": "校园" }
+						{
+							"key": "2036",
+							"label": "直播"
+						},
+						{
+							"key": "2037",
+							"label": "推荐"
+						},
+						{
+							"key": "780",
+							"label": "热门"
+						},
+						{
+							"key": "545",
+							"label": "番剧"
+						},
+						{
+							"key": "774",
+							"label": "动画（港澳台）"
+						},
+						{
+							"key": "151",
+							"label": "影视"
+						},
+						{
+							"key": "801",
+							"label": "韩综（港澳台）"
+						},
+						{
+							"key": "2280",
+							"label": "校园"
+						}
 					],
-					"desc": "请选择启用的首页标签页，建议不超过7个。"
+					"desc": "这里只列出常用选项；分区页提供接近60个快捷访问选项，无法在模块参数中完整列出。请前往 BiliBili App 分区页，使用原生“快捷访问”功能自定义首页标签页。"
 				},
 				{
 					"id": "@Biliverse.Enhanced.Settings.Home.Tab_default",
 					"name": "[首页] 默认标签页",
 					"type": "selects",
-					"val": "recommend",
+					"val": "2037",
 					"items": [
 						{
-							"key": "live",
+							"key": "2036",
 							"label": "直播"
 						},
 						{
-							"key": "recommend",
+							"key": "2037",
 							"label": "推荐"
 						},
 						{
-							"key": "hottopic",
+							"key": "780",
 							"label": "热门"
 						},
 						{
-							"key": "bangumi",
+							"key": "545",
 							"label": "番剧"
 						},
 						{
-							"key": "anime",
+							"key": "774",
 							"label": "动画（港澳台）"
 						},
 						{
-							"key": "film",
+							"key": "151",
 							"label": "影视"
 						},
 						{
-							"key": "koreavtw",
+							"key": "801",
 							"label": "韩综（港澳台）"
 						},
 						{
-							"key": "school",
+							"key": "2280",
 							"label": "校园"
 						}
 					],
@@ -90,16 +106,23 @@
 					"name": "[首页] 顶栏（左侧）按钮（用户头像）",
 					"type": "selects",
 					"val": "mine",
-					"items": [{ "key": "mine", "label": "用户中心-我的" }, { "key": "videoshortcut", "label": "短视频" }],
+					"items": [
+						{
+							"key": "mine",
+							"label": "用户中心-我的"
+						},
+						{
+							"key": "videoshortcut",
+							"label": "短视频"
+						}
+					],
 					"desc": "请选择顶栏（左侧）按钮（用户头像）的作用（在biliBili粉色版中无法修改）。"
 				},
 				{
 					"id": "@Biliverse.Enhanced.Settings.Home.Top",
 					"name": "[首页] 顶栏（右侧）按钮",
 					"type": "checkboxes",
-					"val": [
-						"messages"
-					],
+					"val": ["messages"],
 					"items": [
 						{
 							"key": "game_center",
@@ -120,10 +143,7 @@
 					"id": "@Biliverse.Enhanced.Settings.Home.Top_more",
 					"name": "[首页] 标签栏右侧按钮",
 					"type": "checkboxes",
-					"val": [
-						"categories",
-						"search"
-					],
+					"val": ["categories", "search"],
 					"items": [
 						{
 							"key": "categories",
@@ -140,13 +160,7 @@
 					"id": "@Biliverse.Enhanced.Settings.Bottom",
 					"name": "[底部] 导航栏按钮",
 					"type": "checkboxes",
-					"val": [
-						"home",
-						"dynamic",
-						"ogv",
-						"mall",
-						"mine"
-					],
+					"val": ["home", "dynamic", "ogv", "mall", "mine"],
 					"items": [
 						{
 							"key": "home",
@@ -184,7 +198,32 @@
 					"name": "[调试] 日志等级",
 					"type": "selects",
 					"val": "WARN",
-					"items": [{ "key": "OFF", "label": "关闭" }, { "key": "ERROR", "label": "❌ 错误" }, { "key": "WARN", "label": "⚠️ 警告" }, { "key": "INFO", "label": "ℹ️ 信息" }, { "key": "DEBUG", "label": "🅱️ 调试" }, { "key": "ALL", "label": "全部" }],
+					"items": [
+						{
+							"key": "OFF",
+							"label": "关闭"
+						},
+						{
+							"key": "ERROR",
+							"label": "❌ 错误"
+						},
+						{
+							"key": "WARN",
+							"label": "⚠️ 警告"
+						},
+						{
+							"key": "INFO",
+							"label": "ℹ️ 信息"
+						},
+						{
+							"key": "DEBUG",
+							"label": "🅱️ 调试"
+						},
+						{
+							"key": "ALL",
+							"label": "全部"
+						}
+					],
 					"desc": "选择脚本日志的输出等级，低于所选等级的日志将全部输出。"
 				}
 			],
@@ -201,8 +240,8 @@
 				{
 					"id": "@Biliverse.Enhanced.Settings.Region.Switch",
 					"name": "[分区] 启用此标签页自定义功能",
-					"val": true,
 					"type": "boolean",
+					"val": true,
 					"desc": "启用后可自定义分区标签页的内容。"
 				}
 			],
@@ -219,8 +258,8 @@
 				{
 					"id": "@Biliverse.Enhanced.Settings.Mine.Switch",
 					"name": "[我的] 启用此标签页自定义功能",
-					"val": true,
 					"type": "boolean",
+					"val": true,
 					"desc": "启用后可自定义我的标签页的服务内容。"
 				}
 			],
